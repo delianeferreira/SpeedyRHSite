@@ -192,7 +192,7 @@ blockquote.wp-block-quote.is-large { padding-left: 0; padding-right: 0; }
 
 .wp-block-pullquote.is-style-solid-color cite:before, .wp-block-pullquote.is-style-solid-color .wp-block-pullquote__citation:before { left: 0; margin-left: 0; }
 
-figcaption { margin: 1.3em auto; color: #808291; font-style: italic; }
+figcaption { margin: 1.3em auto; color: #808291; font-style: italic;}
 
 .fp-sr-only, .screen-reader-text { clip: rect(1px, 1px, 1px, 1px); height: 1px; overflow: hidden; position: absolute !important; top: 0; left: 0; width: 1px; word-wrap: normal !important; }
 
@@ -203,7 +203,7 @@ p { margin-bottom: 1.3em; }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 { font-family: 'Roboto', sans-serif; margin: 1.25em 0 0.75em; font-weight: 500; line-height: 1.2; color: #181b31; }
 
-h1, .h1 { margin-top: 0; font-size: 52px; }
+h1, .h1 { margin-top: 0; font-size: 52px; }   
 
 h2, .h2 { font-size: 30px; }
 
@@ -9522,4 +9522,20 @@ MOBULE HEADER
   .page-has-frame .is-stuck { left: 20px; right: 20px; }
   .page-has-frame .megamenu.megamenu-fullwidth .nav-item-children { width: calc( 100vw - 40px); left: calc(50% + 10px) !important; right: calc(50% + 10px) !important; margin-left: calc(-50vw + 10px) !important; margin-right: calc(-50vw + 10px) !important; }
   .page-has-frame .megamenu.megamenu-fullwidth .megamenu-container { width: calc( 100vw - 40px) !important; } }
+  .square_btn{
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #668ad8;/*ButtonColor*/
+    color: #FFF;
+    border-bottom: solid 4px #627295;
+    border-radius: 3px;
+}
+.square_btn:active {/*OnClick*/
+    -ms-transform: translateY(4px);
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);/*Move down*/
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);/*Reduce Shadow*/
+    border-bottom: none;
+}
 /*# sourceMappingURL=theme.min.css.map */
